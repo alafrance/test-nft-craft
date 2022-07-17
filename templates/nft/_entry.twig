@@ -1,0 +1,51 @@
+{% extends "_layout.twig" %}
+{% block stylesheets %}
+    <link href="/styles/nft.css" rel="stylesheet">
+{% endblock %}
+{% macro timeAgo(entry) %}
+{% endmacro %}
+{% block content %}
+    <div class="nft-card">
+        {% if entry.featureImage|length %}
+            {% for image in entry.featureImage.all() %}
+                <div class="box-nft" id="boxnft">
+                    <img src="{{ image.url }}" alt="{{ image.title }}" class="nft"/>
+                    <div class="hoverEye">
+                        <img src="/assets/icon/view.svg" alt="Icon Eye">
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+        <div class="content">
+            <h1>{{ entry.nftTitle }}#{{ entry.idNft }}</h1>
+            <p> {{ entry.summary }}</p>
+            <div class="infos">
+                <div class="price">
+                    <img src="/assets/icon/ethereum.svg" alt="Ethereum icon">
+                    <p>{{ entry.price }} ETH</p>
+                </div>
+                <div class="time">
+                    <img src="/assets/icon/clock.svg" alt="Clock icon">
+                    {{ entry.createdAt.diff(now) | duration | split(',') | first | replace({'jours': 'days', 'jour': 'day'})}} left
+                </div>
+            </div>
+            <div class="line"></div>
+            {# USER  #}
+            {% set user = entry.userInfo.one()%}
+            <div class="user">
+                {% if user.image|length %}
+                    {% for image in user.image.all() %}
+                        <img src="{{ image.url }}" alt="{{ image.title }}" />
+                    {% endfor %}
+                {% endif %}
+                <p>
+                    Creation of
+                    <a href="{{ user.link_website }}">
+                        {{ user.user_name }}
+                    </a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

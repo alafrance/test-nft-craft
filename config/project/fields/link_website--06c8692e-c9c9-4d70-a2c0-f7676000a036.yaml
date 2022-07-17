@@ -1,0 +1,14 @@
+columnSuffix: hwaovoir
+contentColumnType: string(255)
+fieldGroup: 32207b74-0b22-4f2e-85a5-865e055cebe0 # User
+handle: link_website
+instructions: null
+name: link_website
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

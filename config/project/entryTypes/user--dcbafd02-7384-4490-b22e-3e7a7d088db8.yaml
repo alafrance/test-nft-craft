@@ -1,0 +1,53 @@
+fieldLayouts:
+  a1975f2f-37d0-4920-9eb1-acfd3b2f1c76:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 92b24058-4b01-4961-a1dd-6457076d917c # User name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae4fb7d4-c920-42fa-9970-495b1cbc67df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 06c8692e-c9c9-4d70-a2c0-f7676000a036 # link_website
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 016f2622-7b31-42f4-81aa-2d1c68839cc3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d7d41c0-c1cb-4103-a4cb-91ad103a54c1 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54fd96dd-3052-4ec9-a642-7f415dc83d7e
+            userCondition: null
+            warning: null
+            width: 100
+        name: User
+        uid: 04b57bce-fb4b-4689-9946-428d39ef0e5c
+        userCondition: null
+handle: user
+hasTitleField: true
+name: User
+section: 72910ad4-fa3a-48af-bdc5-e10bd89c85af # nft
+sortOrder: 4
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

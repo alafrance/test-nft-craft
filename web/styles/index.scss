@@ -1,0 +1,14 @@
+@import "mixins";
+@import "variables";
+body {
+  margin: 0;
+  @include outfit-family;
+  font-size: $size_text;
+  color: $color_primary;
+  font-weight: 300;
+  background-color: $color_background;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+columnSuffix: jmgdiezq
+contentColumnType: string(1020)
+fieldGroup: cef4e03d-69e6-4316-906a-24b1252e9b66 # Nft
+handle: summary
+instructions: 'Enter a brief, one or two sentences nft summary'
+name: Summary
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 255
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

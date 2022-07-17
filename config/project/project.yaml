@@ -1,0 +1,56 @@
+dateModified: 1658073220
+email:
+  fromEmail: alexislafrances-laf@outlook.fr
+  fromName: nft_card
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  nft:
+    hasUrls: true
+    name: nft
+    settings:
+      path: '@webroot/assets/nft'
+    type: craft\fs\Local
+    url: '@web/assets/nft'
+  userPicture:
+    hasUrls: true
+    name: 'User Picture'
+    settings:
+      path: '@webroot/assets/user'
+    type: craft\fs\Local
+    url: '@web/assets/user'
+meta:
+  __names__:
+    01d308de-4063-483b-89c4-5cb334f6cf97: Nft # Nft
+    02d47f4e-e0c2-4e11-919b-e28fbec6c6cd: 'Id nft' # Id nft
+    2ef9a91c-9a2a-4294-ba86-f07fbeaeb948: Summary # Summary
+    2f711dd2-95ae-4aea-ae80-192cdd36586a: Price # Price
+    3b2c274d-1f6d-416f-805f-40e537ae16bc: 'Nft Categories' # Nft Categories
+    4ea1e33c-b05e-4821-adfe-8a5bda2c66c1: Common # Common
+    06c8692e-c9c9-4d70-a2c0-f7676000a036: link_website # link_website
+    7c883bb3-613b-4fe9-afdb-29b1c42267aa: 'User info' # User info
+    8d7d41c0-c1cb-4103-a4cb-91ad103a54c1: Image # Image
+    017b7839-3240-4850-91b5-6ccf0b24b62c: created_at # created_at
+    66b2de03-b9c2-4921-b712-b1f055b89d84: 'Nft Title' # Nft Title
+    083ec8b5-3a63-4e14-a498-44f7083bed08: nft_card # nft_card
+    92b24058-4b01-4961-a1dd-6457076d917c: 'User name' # User name
+    104db1cc-2572-4a13-b654-0cc201d5cc33: Index # Index
+    679b73ff-16a4-475f-9d1b-86a5fb0ef79b: nft_card # nft_card
+    32207b74-0b22-4f2e-85a5-865e055cebe0: User # User
+    72910ad4-fa3a-48af-bdc5-e10bd89c85af: nft # nft
+    cef4e03d-69e6-4316-906a-24b1252e9b66: Nft # Nft
+    d09afab7-de3f-4d51-ba36-990d4ac99897: Nft # Nft
+    d80e8b5c-68c7-4457-a2c2-3e0129571223: 'Feature Image' # Feature Image
+    dcbafd02-7384-4490-b22e-3e7a7d088db8: User # User
+    f1bbc2dd-91ff-4f33-9b56-d5543bbca379: Index # Index
+system:
+  edition: solo
+  live: true
+  name: nft_card
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

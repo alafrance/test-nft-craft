@@ -1,0 +1,20 @@
+columnSuffix: mfbtfiqq
+contentColumnType: integer(10)
+fieldGroup: cef4e03d-69e6-4316-906a-24b1252e9b66 # Nft
+handle: idNft
+instructions: 'Number nft'
+name: 'Id nft'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

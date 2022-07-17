@@ -1,0 +1,84 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: cef4e03d-69e6-4316-906a-24b1252e9b66 # Nft
+handle: userInfo
+instructions: null
+name: 'User info'
+searchable: false
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\fields\conditions\TextFieldConditionRule
+              -
+                - uid
+                - 1b77ce48-21a4-4742-aeb7-cea25b03afea
+              -
+                - operator
+                - '='
+              -
+                - value
+                - ''
+              -
+                - fieldUid
+                - 92b24058-4b01-4961-a1dd-6457076d917c # User name
+          -
+            __assoc__:
+              -
+                - class
+                - craft\fields\conditions\TextFieldConditionRule
+              -
+                - uid
+                - 581f8598-42b9-4403-b1e9-3a0230b5b2bb
+              -
+                - operator
+                - '='
+              -
+                - value
+                - ''
+              -
+                - fieldUid
+                - 06c8692e-c9c9-4d70-a2c0-f7676000a036 # link_website
+          -
+            __assoc__:
+              0:
+                - class
+                - craft\fields\conditions\RelationalFieldConditionRule
+              1:
+                - uid
+                - f5cb1cc1-6653-4953-b756-984a54ff6821
+              2:
+                - operator
+                - relatedTo
+              4:
+                - fieldUid
+                - 8d7d41c0-c1cb-4103-a4cb-91ad103a54c1 # Image
+  selectionLabel: null
+  showSiteMenu: false
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

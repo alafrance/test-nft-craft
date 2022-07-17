@@ -1,0 +1,19 @@
+columnSuffix: rznsdgey
+contentColumnType: string(400)
+fieldGroup: 32207b74-0b22-4f2e-85a5-865e055cebe0 # User
+handle: user_name
+instructions: null
+name: 'User name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 100
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

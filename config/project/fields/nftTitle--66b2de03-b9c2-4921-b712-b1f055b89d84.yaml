@@ -1,0 +1,19 @@
+columnSuffix: qzcpczut
+contentColumnType: string(400)
+fieldGroup: cef4e03d-69e6-4316-906a-24b1252e9b66 # Nft
+handle: nftTitle
+instructions: null
+name: 'Nft Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 100
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Title to your nft'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

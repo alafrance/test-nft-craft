@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  4f57d17a-efdb-44cc-8ed9-4114e45d69a0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 0b9c3033-decb-4459-9206-cb96d8b7dac2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenu
+        uid: c7f070f4-2042-43c8-b937-e1d54786a3ed
+        userCondition: null
+handle: nftCategories
+name: 'Nft Categories'
+siteSettings:
+  083ec8b5-3a63-4e14-a498-44f7083bed08: # nft_card
+    hasUrls: true
+    template: nft/_entry
+    uriFormat: 'nft-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: 569b41b7-1dda-4889-97eb-6c73a1f2569b

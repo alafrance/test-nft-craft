@@ -1,0 +1,127 @@
+fieldLayouts:
+  0d791a5a-3bac-4a52-adaf-dad737fd2b92:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a387a610-2914-47ff-8c56-faab48e8ba90
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 66b2de03-b9c2-4921-b712-b1f055b89d84 # Nft Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 750102cc-701c-4332-9fe9-eb492ec4c652
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2f711dd2-95ae-4aea-ae80-192cdd36586a # Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1144e677-e2b1-455a-ad37-396f0b0cce8b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2ef9a91c-9a2a-4294-ba86-f07fbeaeb948 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d644430a-5f34-428a-a64d-317f3486a85c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 017b7839-3240-4850-91b5-6ccf0b24b62c # created_at
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79af322a-e0ab-4219-955f-a61862b8025e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d80e8b5c-68c7-4457-a2c2-3e0129571223 # Feature Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 783f2713-cd0e-457c-a5f2-a844c41215da
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7c883bb3-613b-4fe9-afdb-29b1c42267aa # User info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8420c060-a98c-4b4d-af09-89fa21b65f39
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 02d47f4e-e0c2-4e11-919b-e28fbec6c6cd # Id nft
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb40576e-44b4-4e03-899c-08298d0572ed
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contenu
+        uid: 88de2926-545f-41a4-9a45-4dd4d52cd6e2
+        userCondition: null
+handle: index
+hasTitleField: true
+name: Index
+section: f1bbc2dd-91ff-4f33-9b56-d5543bbca379 # Index
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

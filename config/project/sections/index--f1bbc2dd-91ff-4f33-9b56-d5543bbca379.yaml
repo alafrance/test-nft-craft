@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: index
+name: Index
+propagationMethod: all
+siteSettings:
+  083ec8b5-3a63-4e14-a498-44f7083bed08: # nft_card
+    enabledByDefault: true
+    hasUrls: true
+    template: /
+    uriFormat: __home__
+type: single

@@ -1,0 +1,9 @@
+baseUrl: '@web'
+enabled: true
+handle: default
+hasUrls: true
+language: fr-FR
+name: nft_card
+primary: true
+siteGroup: 679b73ff-16a4-475f-9d1b-86a5fb0ef79b # nft_card
+sortOrder: 1
